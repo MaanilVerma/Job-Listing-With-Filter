@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Spartan', sans-serif !important;
+  background: #EFFAFA !important;
+  font-size: 15px !important;
+  color: #2B3939;
+}
+
+ul
+{
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+}
