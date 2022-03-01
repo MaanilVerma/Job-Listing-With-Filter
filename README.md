@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Job Listings App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Job Listing App is an application where user can search for Jobs. Also, user can use Search Filter to narrow down the Job Post according to the relevant tags.
 
-## Available Scripts
+# Application Link
 
-In the project directory, you can run:
+<strong>Frontend Source Code</strong>: [https://github.com/MaanilVerma/Job-Listing-With-Filter](https://github.com/MaanilVerma/Job-Listing-With-Filter)
+<br>
+<strong>Deployed Application</strong>: [https://jobs-listing-maanil-verma.netlify.app/](https://jobs-listing-maanil-verma.netlify.app/)
 
-### `npm start`
+# Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features Included in this application:-
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<li>
+  Users can add multiple ‘tags’ in the search bar. When the user adds a tag, the search results refresh with the job postings matching the current list of tags in the search bar.
+</li>
+<br>
+<li>
+  Users should be able to clear a tag by hitting the cross next to it or clear all tags by clicking on the Clear button on the right side of the search bar.
+</li>
+<br>
 
-### `npm test`
+# How to Use this Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the Repository using "git clone".<br>
+2. Use command "npm install" or "yarn install" to install the dependencies.<br>
+3. Use command "npm start" or "yarn start" to open the project at http://localhost:3000 to view it in the browser.
 
-### `npm run build`
+<br>
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🤝🏻 &nbsp;Connect with Me
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+<p align="center">
+<a href="https://maanilverma.netlify.app"><img src="https://img.shields.io/badge/-Portfolio-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/maanilverma"><img src="https://img.shields.io/badge/-Maanil%20Verma-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:maanilv8@gmail.com"><img src="https://img.shields.io/badge/-maanilv8@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://twitter.com/MaanilV"><img src="https://img.shields.io/twitter/url?color=White&label=Maanil%20Vema&style=social&url=https%3A%2F%2Ftwitter.com%2FMaanilV"/></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
