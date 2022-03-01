@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useContext} from "react";
 
 import "./listingStyles.scss";
 
 import { Row, Col } from "react-bootstrap";
 
+import { SearchTagsContext } from "../../contexts/searchTagsContext";
+
 function Listing(props) {
+  
+  const { setSearchTags } = useContext(SearchTagsContext);
+
   let {
     company,
     logo,
@@ -18,6 +23,13 @@ function Listing(props) {
   let isNew = props.item.new;
 
   let logoName = logo.split("/").pop();
+
+  const handleTagClick = (e) => {
+    setSearchTags((prev) => {
+      if (prev.includes(e.target.innerText)) return prev
+      return prev.concat(e.target.innerText)
+    });
+}; 
 
   return (
     <div className="listing-box">
@@ -49,7 +61,9 @@ function Listing(props) {
             <Col className="job-tags-col" md={6}>
               <ul className="tag-list">
                 {tags.map((tag, key) => (
-                  <li key={tag}>{tag}</li>
+                  <li key={tag} onClick={handleTagClick}>
+                    {tag}
+                  </li>
                 ))}
               </ul>
             </Col>
